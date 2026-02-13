@@ -38,5 +38,16 @@ That's it! You can create a shortcut of this file and store it on your system's 
 4. Next, you'll need to install the correct modules for your Python interperter
    > NOTE: It's assumed that you already have a Python interperter downloaded if installing this verison. If you don't have one, download one before continuing forward.
 
+   For the modules, go to your systems terminal, and type in the following commands one at a time:
+   ```powershell
+   pip install customtkinter pyserial pillow
+   ```
+
+> [!TIP]   
+> To check if the modules were installed correctly, run the following commands:
+> 
+
+   
+
    
    
