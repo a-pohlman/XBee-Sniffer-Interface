@@ -76,5 +76,5 @@ That's it! You can create a shortcut of this file and store it on your system's 
 > [!IMPORTANT]
 > Inside the bin folder, you will also find a folder named 'cache.' When running tests with the 'default' path, this is where it will automatically store those files.
 
-## Documentation
-
+## Help
+If you want to know how the app works, a PDF has been provided that will give all the knowledge needed on how to use the app. Navigate into the bin folder, and you should see a PDF labeled, 'help.pdf.' For your convience, the app also has a help button that you can click to open the PDF directly. For any issues with the app or if something is bugged, please feel free to use the issues tab to report them. 
