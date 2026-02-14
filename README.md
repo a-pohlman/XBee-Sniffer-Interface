@@ -1,6 +1,6 @@
 # XBee Sniffer Interface
 ## Description
-A GUI application used to read any packets in a given network using XBee radio modules. Originally desinged for the C-ARQ research project at Ohio Northern University, a lightweight and unique application that takes the hassle out of using a boring terminal line. With a easy to navigate user interface, it makes the process of starting and running new tests straightforward. 
+A GUI application used to read any packets in a given network using XBee radio modules. Originally desinged for the [C-ARQ research](https://github.com/a-pohlman/C-ARQ-Research) project at Ohio Northern University, a lightweight and unique application that takes the hassle out of using a boring terminal line. With a easy to navigate user interface, it makes the process of starting and running new tests straightforward. 
 
 ## Features
 - Easy to use user interface
