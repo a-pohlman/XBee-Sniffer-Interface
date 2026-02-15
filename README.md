@@ -65,7 +65,7 @@ That's it! You can create a shortcut of this file and store it on your system's 
 > ```
 
 5. After verifying that the appropriate modules have been installed, navigate inside the folder you extracted from earlier
-6. Extract the zipped bin folder (_You can delete the bin.zip folder after extraction_)
+6. Choose to extract the zipped bin folder for your system type (_You can delete the other zipped folders after extraction_)
 7. Navigate inside the bin folder
 8. You'll find a file called 'xsi.pyw'
 9. There are two options two running this file. If your in Windows, right click on it and slect Python. Otherwise, you can run the file using your systems terminal.
