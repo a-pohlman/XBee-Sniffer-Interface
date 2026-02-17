@@ -16,7 +16,7 @@ A GUI application used to read any packets in a given network using XBee radio m
 The current release of the application as of **02/14/2026.** This will be the first instalment of the application. Development may or may not continue in the future. It all depends on if the project needs more updates and features. Since this is the first version to be released, there are no bug updates or reports to be made as of this time. Read the below footer notes for the section to view any additional information needed.
 
 > [!WARNING]
-> The app was developed in tested using Python 3.13 enviornment. If using the Python Version, and not an exectuable, it is recommended to have a Python interperter 3.10 and higher.
+> The app was developed and tested using Python 3.13 enviornment. If using the Python Version, and not an exectuable, it is recommended to have a Python interperter 3.10 and higher.
 
 > [!IMPORTANT]
 > The only XBee radio devices that were used to test on when devleoping the app were the XBee S2C radios. It may be possible that the app does not work with all XBee radio modules.
