@@ -12,8 +12,8 @@ A GUI application used to read any packets in a given network using XBee radio m
 - Tracks progress during testing
 - Supports different themes
 
-## Version 0.2.5-beta
-Outdated release of the application from **02/14/2026.** Please see the newest release XSI_0.3.0 by using the github branches for the most up-to-date version. 
+## Version 0.2.5 
+**Outdated** release of the application from **02/14/2026.** Please see the newest release XSI_0.3.0 by using the github branches for the most up-to-date version. 
 
 > [!WARNING]
 > The app was developed and tested using Python 3.13 enviornment. If using the Python Version, and not an exectuable, it is recommended to have a Python interperter 3.10 and higher.
@@ -25,22 +25,13 @@ Outdated release of the application from **02/14/2026.** Please see the newest r
 There are two different ways to still install this version if wanted. The first way is to use the Python version, the other is by using a legacy exectuable packaged into a setup wizard for Windows 11. Please review the below sections to see how to install them.
 
 ### Exectuable Versions
-1. Start by downloading the Github in whatever way you like (Whether it be the zip folder or cloning the repository)
-2. Navigate to the folder you just downloaded
-3. Extract the folder
-4. Navigate into the extracted folder
-5. Extract the zipped bin folder (_You can delete the bin.zip folder after extraction_)
-6. Once completed, then navigate into the bin folder
-7. At this point, whether on Windows 11 or Debian, you should find a file called 'xsi.exe' or 'xsi'
-8. Double click on this file to run the program
+1. Start by going to the releases tab on the right, and clicking on the version of XSI you want (available: XSI_0.2.5 | XSI_0.3.0)
+2. Once downloaded, you should have a file called 'xsi_[VERSION]_setup.exe'
+3. Double click or run the executable to start the setup wizard
+4. Follow the on screen prompts
+5. Wait for it to download
 
-That's it! You can create a shortcut of this file and store it on your system's desktop if you wish, but this is how you can run the application. 
-
-> [!CAUTION]
-> It's important that you do not move any files or folders outside of the bin folder as this can and will cause the application to freeze and crash!
-
-> [!IMPORTANT]
-> Inside the bin folder, you will also find a folder named 'cache.' When running tests with the 'default' path, this is where it will automatically store those files.
+That's it! Assuming you checked the box for a desktop shortcut, you can now run the XSI application. 
 
 ### Python Version
 1. Start by downloading the Github in whatever way you like (Whether it be the zip folder or cloning the repository)
@@ -59,19 +50,22 @@ That's it! You can create a shortcut of this file and store it on your system's 
 > ```python
 > import customtkinter
 > import serial
-> ```
-> ```python
 > import pillow # For Windows 11 systems only
 > ```
 
 5. After verifying that the appropriate modules have been installed, navigate inside the folder you extracted from earlier
-6. Choose to extract the zipped bin folder for your system type (_You can delete the other zipped folders after extraction_)
 7. Navigate inside the bin folder
 8. You'll find a file called 'xsi.pyw'
 9. There are two options two running this file. If your in Windows, right click on it and slect Python. Otherwise, you can run the file using your systems terminal.
 
+Assuming everything went correctly, you should have a working version of XSI using python!
+
+### WARNINGS
 > [!CAUTION]
 > It's important that you do not move any files or folders outside of the bin folder as this can and will cause the application to freeze and crash!
+
+> [!WARNING]
+> In its current state for the Windows 11 executable, it is recommended not to store XSI in 'Program Files' folder as it has been known to crash and cannot save data in the default cache folder. Instead it is recommended to keep the program anywhere in the users files.
 
 > [!IMPORTANT]
 > Inside the bin folder, you will also find a folder named 'cache.' When running tests with the 'default' path, this is where it will automatically store those files.
