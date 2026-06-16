@@ -1,8 +1,0 @@
-!=================================!
-Test Info:
-file_name: my_test
-packet_count: 5000
-verified_device: None
-time_started: 19:24
-date_conducted: 2/13/2026
-!=================================!
