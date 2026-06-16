@@ -13,7 +13,7 @@ A GUI application used to read any packets in a given network using XBee radio m
 - Supports different themes
 
 ## Version 0.2.5-beta
-The current release of the application as of **02/14/2026.** This will be the first instalment of the application. Development may or may not continue in the future. It all depends on if the project needs more updates and features. Since this is the first version to be released, there are no bug updates or reports to be made as of this time. Read the below footer notes for the section to view any additional information needed.
+Outdated release of the application from **02/14/2026.** Please see the newest release XSI_0.3.0 by using the github branches for the most up-to-date version. 
 
 > [!WARNING]
 > The app was developed and tested using Python 3.13 enviornment. If using the Python Version, and not an exectuable, it is recommended to have a Python interperter 3.10 and higher.
@@ -22,7 +22,7 @@ The current release of the application as of **02/14/2026.** This will be the fi
 > The only XBee radio devices that were used to test on when devleoping the app were the XBee S2C radios. It may be possible that the app does not work with all XBee radio modules.
 
 ## Setting Up
-There are currently different ways to set up the application for various different systems. Currently there are only two exectuables available for Windows 11 and Debian / Ubuntu systems. These are the easiest, and most reliable in terms of setting up and getting started with using the application. If your system can not use one of these, then, you can try and use the Python Version as well. By default, the repository is set up to default to the Windows branch since it's the most common system. Unix systems will have to switch the branch on the repository to the version wanted. 
+There are two different ways to still install this version if wanted. The first way is to use the Python version, the other is by using a legacy exectuable packaged into a setup wizard for Windows 11. Please review the below sections to see how to install them.
 
 ### Exectuable Versions
 1. Start by downloading the Github in whatever way you like (Whether it be the zip folder or cloning the repository)
