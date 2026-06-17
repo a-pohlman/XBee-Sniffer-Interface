@@ -55,7 +55,7 @@ That's it! Assuming you checked the box for a desktop shortcut, you can now run 
 > ```python
 > import customtkinter
 > import serial
-> import pillow # For Windows 11 systems only
+> import pillow
 > ```
 
 5. After verifying that the appropriate modules have been installed, navigate inside the folder you extracted from earlier
