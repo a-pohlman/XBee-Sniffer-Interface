@@ -1,10 +1,14 @@
 <p align="center">
-  <img src="images/xsi_git_logo.png" alt="Alternate Text" width="500">
+  <img src="images/xsi_git_logo.png" alt="XSI Logo" width="500">
 </p>
 
 # XBee Sniffer Interface
 ## Description
 A GUI application used to read any packets in a given network using XBee radio modules. Originally desinged for the [C-ARQ research](https://github.com/a-pohlman/C-ARQ-Research) project at [Ohio Northern University](https://onu.edu), a lightweight and unique application that takes the hassle out of using a longwinded terminal script. With a easy to navigate user interface, it makes the process of starting and running new tests straightforward. 
+
+<p align="center">
+  <img src="images/xsi_running.png" alt="XSI Running" width="700">
+</p>
 
 ## Features
 - Intuitive interface
