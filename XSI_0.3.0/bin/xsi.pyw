@@ -629,6 +629,7 @@ class App(Base):
         if self.custom_test_on: 
             try:
                 if ct.show_options:
+                    ct.raise_error = False
                     co = ct.CustomOptions()
                     co.wait_window()
                     if co.items_saved:
