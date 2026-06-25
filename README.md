@@ -23,7 +23,7 @@ A GUI application used to read any packets in a given network using XBee radio m
 - Time Estimator (*New)
 
 ## Version 0.3.0
-The current release of the application as of **06/16/2026.** This version of the application has had a major UI overhaul, completing changing how the app looks and feels. As well as this, other known features have had quality or bug fixes to them. 
+The current release of the application as of **06/25/2026.** This version of the application has had a major UI overhaul, completely changing how the app looks and feels. As well as this, other known features have had quality or bug fixes to them. 
 > [!WARNING]
 > The app was developed and tested using a Python 3.14 enviornment. If using the Python Version, and not an exectuable, it is recommended to have a Python interperter 3.10 and higher.
 
@@ -31,9 +31,9 @@ The current release of the application as of **06/16/2026.** This version of the
 > The only XBee radio devices that were used to test on when developing the app were the XBee S2C radios. It may be possible that the app does not work with all XBee radio modules! If this happens please report this to the issues tab with your error.
 
 ## Setting Up
-There are different ways to setup and run the application. Differenet versions of the application exsist, such as the exectuable version, or the Python version. Follow the steps below in order to install the version that you want!
+There are different ways to setup and run the application. Differenet versions of the application exsist, such as the Windows 11 version, or the Python version. Follow the steps below in order to install the version that you want!
 
-### Windows 11 Exectuable Versions
+### Windows 11 Version
 1. Start by going to the releases tab on the right, and clicking on the version of XSI you want (available: XSI_0.2.5 | XSI_0.3.0)
 2. Once downloaded, you should have a file called 'xsi_[VERSION]_setup.exe'
 3. Double click or run the executable to start the setup wizard
@@ -49,13 +49,12 @@ That's it! Assuming you checked the box for a desktop shortcut, you can now run 
 4. Next, you'll need to install the correct modules for your Python interperter
    > NOTE: It's assumed that you already have a Python interperter downloaded if installing this verison. If you don't have one, download one before continuing forward.
 
-   For the modules, go to your systems terminal, and type in the following commands one at a time:
+   For the modules, go to your systems terminal, and type in the following command:
    ```powershell
    pip install customtkinter pyserial pillow
    ```
-
 > [!TIP]   
-> To check if the modules were installed correctly, in the same terminal type `python` and run the following code:
+> To check if the modules were installed correctly, in the same terminal type `python` and type the following code:
 > ```python
 > import customtkinter
 > import serial
@@ -69,15 +68,19 @@ That's it! Assuming you checked the box for a desktop shortcut, you can now run 
 
 Assuming everything went correctly, you should have a working version of XSI using python!
 
-### NOTES & WARNINGS
+### NOTES & WARNINGS DURING SETUP
 > [!IMPORTANT]
-> Inside the bin folder, you will also find a folder named 'cache.' When running tests with the 'default' path, this is where it will automatically store those files.
+> Inside the XSI_[VERSION] folder, you will also find a folder named 'cache.' When running tests with the 'default' path, this is where it will automatically store those files.
+
+> [!WARNING]
+> In its current state for the Windows 11, it is recommended not to store XSI in 'Program Files' folder as it has been known to crash and cannot save data in the default cache folder. Instead it is recommended to keep the program anywhere in the users files.
 
 > [!CAUTION]
 > It's important that you do not move any files or folders outside of the bin folder as this can and will cause the application to freeze and crash!
 
-> [!WARNING]
-> In its current state for the Windows 11 executable, it is recommended not to store XSI in 'Program Files' folder as it has been known to crash and cannot save data in the default cache folder. Instead it is recommended to keep the program anywhere in the users files.
+> [!CAUTION]
+> Most Linux distributions tend NOT to have Tkinter / Tcl installed by default or built with python distributions. You'll have to install Tkinter manually for python on your own in order for the application to work on Linux based distributions. 
 
 ## Help
-If you want to know how the app works, a PDF has been provided that will give all the knowledge needed on how to use the app. Navigate into the bin folder, and you should see a PDF labeled, 'help.pdf.' For your convience, the app also has a help button that you can click to open the PDF directly. For any issues with the app or if something is bugged, please feel free to use the issues tab to report them. 
+If you want to know how the app works, a PDF has been provided that will give all the knowledge needed on how to use the app. To access it, simply open the XSI application and click on the help button. This will open up the XSI Help document in the default browser.
+> NOTE: You can also find it in XSI_[VERSION] > bin > tools folder either downloaded or in the Github repository. 
