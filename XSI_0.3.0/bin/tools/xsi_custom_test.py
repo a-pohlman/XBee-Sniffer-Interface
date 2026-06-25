@@ -14,7 +14,7 @@ class CustomOptions(ctk.CTkToplevel):
     def __init__(self):
         super().__init__()
 
-        self.title("XSI - Statistics for Models")
+        self.title("XSI - Custom Test") # Change window title here
         self.geometry(f"425x450+{int(self.winfo_screenwidth()/2 - 212.5)}+{int(self.winfo_screenheight()/2.2 - 212.5)}")
         self.minsize(425,450) # Change window size here
         self.maxsize(425,450) # Change window size here
@@ -26,7 +26,8 @@ class CustomOptions(ctk.CTkToplevel):
         self.frame = ctk.CTkFrame(self.root, corner_radius=10, fg_color=Theme.fg_color, border_color=Theme.accent, border_width=3)
         self.frame.pack(expand=True, fill="both", padx=20, pady=20)
 
-        self.title_label = ctk.CTkLabel(self.frame, text="Statistics for Models", font=(Theme.font_type,20,"bold"), text_color=Theme.text_color)
+        # Change frame title text in self.title_label
+        self.title_label = ctk.CTkLabel(self.frame, text="Custom Options", font=(Theme.font_type,20,"bold"), text_color=Theme.text_color)
         self.title_label.grid(row=0, column=0, columnspan=10, pady=(20,0), padx=100)
 
         # Add customtkinter code below (use the grid method to place object down)
@@ -59,7 +60,7 @@ class Loop:
     def loop(self, data:str, packet_count:int):
         pass
     
-    # Use this function to write data every time data is collected
+    # Use this function to write data every time data is collected into the file
     def file_output(self, data:str) -> str:
         return self.output
 
