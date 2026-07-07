@@ -81,6 +81,27 @@ Assuming everything went correctly, you should have a working version of XSI usi
 > [!CAUTION]
 > Most Linux distributions tend NOT to have Tkinter / Tcl installed by default or built with python distributions. You'll have to install Tkinter manually for python on your own in order for the application to work on Linux based distributions. 
 
+## Windows 11 Custom Test Issue
+Recently, a new issue has been discovered regarding the 'xsi_custom_test.py' python file. If using the pre-compiled exectuable, but you want to make your own custom test, there has been a recent problem doing so. It's currently better to use the Python Version to actually utilize the custom test, but if you still want it bundled as one exectuable, then the best solution for this is by following the steps below to resolve this. 
+1. Start by downloading the Python version of the application
+2. Next, create and build your custom test that you want in the 'xsi_custom_test.py' file
+3. Save the file
+4. Download pyinstaller
+> [!TIP]
+> To download pyinstaller, use this command:
+> ```powershell
+> pip install pyinstaller
+> ```
+5. Navigate inside the bin folder with a terminal
+6. Type: ```pyinstaller --icon "[PATH_TO_ICON]" xsi.pyw ```
+7. This should give you several folders inside the bin folder now, navigate inside the 'dist' folder
+8. Keep going inside these folders, until you find the exectuable.
+
+This is where the newly built exectuable will live, and will be compiled with your new custom test. If you plan on moving the exectuable around the clean up the folders, you must move the exectuable with the '_internal' folder, and you must keep it within bin, as this is how the file structure has been setup up. 
+
+> [NOTE]
+> For future updates, this method will not be preferred and will be fixed to not have to recomplile a new version everytime you want to make a custom test! 
+
 ## Help
 If you want to know how the app works, a PDF has been provided that will give all the knowledge needed on how to use the app. To access it, simply open the XSI application and click on the help button. This will open up the XSI Help document in the default browser.
 > NOTE: You can also find it in XSI_[VERSION] > bin > tools folder either downloaded or in the Github repository. 
